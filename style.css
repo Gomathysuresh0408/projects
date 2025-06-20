@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #0b0d7c;
+  color: #d65e5e;
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background-color: #0d0d0e;
+  color: white;
+  padding: 30px 20px 50px 20px;
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.amp {
+  color: #ffc107;
+}
+
+.care {
+  color: #ffffff;
+}
+
+nav {
+  margin: 15px 0 20px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #ffc107;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-menu li a:hover {
+  color: #198754;
+}
+
+section {
+  background-color: #ffffff;
+  margin: 20px auto;
+  padding: 30px 20px;
+  border-radius: 10px;
+  max-width: 700px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+h2 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: square;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #198754;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 1rem;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #146c43;
+}
+
+footer {
+  background-color: #dee2e6;
+  padding: 15px;
+  font-size: 0.9rem;
+  color: #555;
+  text-align: center;
+}
+
+.social-links {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.social-links a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.social-links a:hover {
+  color: #198754;
+}
+
+.faq {
+  max-width: 700px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+details {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+summary {
+  font-weight: bold;
+  color: #198754;
+  outline: none;
+}
+
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #198754;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+#topBtn:hover {
+  background-color: #146c43;
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    gap: 15px;
+  }
+
+  section {
+    margin: 10px;
+    padding: 15px;
+  }
+}
